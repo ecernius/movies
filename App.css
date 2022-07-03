@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: darkgray;
+}
+.card img{
+width: 250px;
+height: 300px;
+}
+.card{
+  margin: 20px;
+  width: 300px;
+  height: 500px;
+/* border: 2px solid black; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.card h2{
+  margin: 5px;
+}
